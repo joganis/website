@@ -1,0 +1,186 @@
+*{
+    padding: 0;
+    margin: 0;
+    width: auto;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+.deep-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header {
+    background-image: url(assets/banner-bk.jpg);
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+}
+
+.top-header{
+    color: white;
+    display: flex;
+    justify-content:space-between;
+    padding-bottom: 3rem;
+}
+
+.top-header h5 {
+    padding-top: 5rem;
+    padding-right: 10rem;
+    font-size: 1.5rem;
+}
+
+.information-header{
+    color: white;
+    width: 40%;
+}
+
+.information-header h1{
+    font-size: 4rem;
+    margin-bottom: 2rem;
+}
+
+.information-header p{
+    margin-bottom: 2.5rem;
+}
+
+.information-header button{
+    border-radius: 1rem;
+    width: 5rem;
+    height: 2rem;
+    border: none;
+    background-color: #28d199;
+}
+
+.feature-top{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem;
+}
+
+.feature-cards{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.Cards{
+    padding: 3rem;
+    width: 20rem;
+    text-align: center;
+}
+
+.a{
+    background: linear-gradient(167deg, white 38%, #32f7b5 10%, #32f7b5 100%);
+}
+
+.a button{
+    background:#000d35;
+    color: white;
+    border-radius: 3px;
+    margin: 1rem;
+    padding: 5px;
+    border-radius: 15px;
+    width: 6rem;
+}
+
+.about{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.information-main{
+    padding: 3rem;
+    width: 30rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+}
+
+.pricing {
+    padding: 50px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+.pricing-tables {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.pricing-table {
+    padding: 20px;
+    width: 200px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.pricing-table h3 {
+    margin: 0 0 10px;
+}
+
+#premium {
+    background: #000d35;
+    color: white;
+}
+
+.pricing-table button{
+    border-radius: 1.5rem;
+    padding: .6rem;
+}
+
+#premium button{
+    width: max-content;
+    background-color: #28d199;
+    border-radius: 1.5rem;
+    padding: .6rem;
+}
+
+.business{
+    background-color: gray;
+    height: 10rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.contact-bkn{
+    color: white;
+    background-size: cover;
+    background-image: url(./assets/contact-bk.jpg);
+    display: flex;
+    justify-content: space-around;
+    padding: 3rem;
+}
+
+input, textarea{
+    background: transparent;
+    border: 2px solid #28d199;
+    border-radius: 3px;
+    margin: 1rem;
+}
+
+.contact-questions button{
+    padding: .5rem;
+    background: #28d199;
+    border-radius: 1.5rem;
+    width: 100%;
+}
+
+footer{
+    background-color: #192440;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 1.5rem;
+    padding: 1rem;
+}
